@@ -28,13 +28,12 @@ from pyrogram import Client
 
 api_id = 1887341
 api_hash = 'cd0583ea91ea3d2d800b585157f983bb'
-SRING_SESSION="BQATNng0R0RN7709GdXTdzKvwexe9ykqdEvBmWf1w_oeSJGqLFieGxbnphfrIcT0UxvSCr5jth7EzwsVLwo9HKTZg_WfYBoiQOoUohBTONW4-1dy9s5p37NVxVjmW69bYuss8fiRg8mqGRrmPcyc1-dDm0OzNEob0-p9DRQb6ROj022iWsFJbA3LNbBu7bRu2wfK5Bery2g2CQBo6Nlwabi4jAAWBUbO8D0jrjrlHOhjwu4M1TYqQIF2R-h-93mlnn4YKSmXV_7-1d8TrECiWxsTykcmxvm1-P35GXvgX11SwSbVtPzYuzwBtiClkCa53HSYNlBkqHg-Ncu2r9WJ1YrUcjO1WwE"
-client = Client(
+SRING_SESSION="BQCQ6qwYpyJbIZA-t1gQgmOGkOnKAqwWVYaUeqGPbsedbyxCIcVx_4EpENv-8BcOk-58aU6RMF1_xmBRd5pEVUCVj7JmQOEleWXUwgtUmtMpc25L_dpEt60yYeMxfvvueQHA7GRGhCOyfV5W13qCoasMoh4_Reln7d9kdpRhPQz2Ad7R-JreI0dPwyho2mS4tVoQapoVpzMho81xbmDPF6Wd2tuiTQhgNGyoZAkAgZ1a1jC1JQsHuWTooUySiiiBUzzVsdKG2zwzS40qFd1GA0h4Mj0PBkl2NXCQWzyPatF4t1GGkwoYAxu8FydZbm319dan2Fa-bioX5E7dL_nleKD_eexm1gE"
     SRING_SESSION,
     api_id=api_id,
     api_hash=api_hash
 )
-chat_id = os.environ.get("chat_id", int(-578685820))
+chat_id = os.environ.get("chat_id", int(-1001575719023))
 
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = [
